@@ -70,12 +70,10 @@ public class WhileLoopDemo {
 		
 // Example 5: print 10.........1
 		
-		int i=10;
-		while(i>=1)
-		{
+		int i = 10;
+		while (i >= 1) {
 			System.out.println(i);
 			i--;
 		}
-
-}
+	}
 }
