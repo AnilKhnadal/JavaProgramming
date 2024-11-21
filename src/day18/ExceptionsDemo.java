@@ -12,19 +12,19 @@ public class ExceptionsDemo {
 		
 		// Example 1
 		
-	/*	System.out.println("Enter a number :");
+	    System.out.println("Enter a number :");
 		int num = sc.nextInt();
 		System.out.println(100/num); // num=0; ArithmeticException
-		*/
+		
 		
 		// Example 2
 		
 	/*	int a[]=new int[5];
 		
-		System.out.println("Enter the position :");
+		System.out.println("Enter the position(0-4) :");
 		int pos = sc.nextInt();
 		
-		System.out.println("Enter the position :");
+		System.out.println("Enter the value :");
 		int value = sc.nextInt();
 		
 		a[pos]=value; // ArrayIndexOutOfBoundsException
@@ -41,9 +41,9 @@ public class ExceptionsDemo {
 		
 		// Example 4
 		
-		String s=null;
+	/*	String s=null;
 		System.out.println(s.length()); // NullPointerException
-		
+		*/
 		
 		System.out.println("Program is completed..");
 		System.out.println("Program is exited..");

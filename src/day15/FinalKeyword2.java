@@ -10,7 +10,7 @@ final class Test1
 
 class Test2 extends Test1 // incorrect, bcoz Test1 is a final class
 {
-	void m() // incorrect, bcoz m() is finalmethod
+	void m() // incorrect, bcoz m() is final method
 	{
 		System.out.println("this is method from test2...");
 	}
@@ -20,6 +20,7 @@ class Test2 extends Test1 // incorrect, bcoz Test1 is a final class
 public class FinalKeyword2 {
 
 	public static void main(String[] args) {
-		
+		Test2 t1=new Test2();
+		t1.m();
 	}
 }

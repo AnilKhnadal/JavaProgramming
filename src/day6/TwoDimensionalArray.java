@@ -36,7 +36,7 @@ public class TwoDimensionalArray {
         System.out.println("Lenght of Columns = "+(a[0].length));
         
 //Read single value from an array
-        System.out.println(a[2][1]);
+       // System.out.println(a[2][1]);
         
  //Reading all the value from array
         

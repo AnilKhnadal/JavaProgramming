@@ -35,6 +35,7 @@ public class DataConversionMethods {
 		char c='A';
 		boolean bool=true;
 		
+		
 		String s = String.valueOf(a);
 		System.out.println(s);
 		

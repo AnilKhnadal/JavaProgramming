@@ -19,7 +19,7 @@ public class StringVsStringBufferVsStringBuilder {
 	   
 	  // StringBuilder -- mutable, can change
 	   StringBuilder s=new StringBuilder("welcome");
-	   s.append(" to jave");
+	   s.append(" to jave"); //cancat/append
 	   System.out.println(s); // welcome to jave,  mutable, we can change original value of s
 }
 }

@@ -44,7 +44,7 @@ public class HashSetDemo {
 		System.out.println(al.get(2));// 2 is a Index 100
 		
 		// For normal for loop we cannot user bcoz Insertion not allowed
-		// Read all the elements using for..each
+		// Read all the elements using for..each	
 		
      /*	for(Object x:myset)
 	   {
