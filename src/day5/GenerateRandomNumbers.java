@@ -2,7 +2,7 @@ package day5;
 
 import java.util.Random;
 
-public class GenerateRandomNumbersAndStrings {
+public class GenerateRandomNumbers {
 
 	public static void main(String[] args) {
 		

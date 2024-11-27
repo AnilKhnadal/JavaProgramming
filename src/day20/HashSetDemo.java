@@ -10,8 +10,7 @@ public class HashSetDemo {
 	public static void main(String[] args) {
 		
 		// Declaration
-		
-		 HashSet myset=new HashSet();
+		 HashSet<Object> myset=new HashSet<Object>();
 		// Set myset=new HashSet(); // Set is a parent class object
 		// HashSet<String> myset=new HashSet<String>();
 		
@@ -28,17 +27,14 @@ public class HashSetDemo {
 		
 		// printing hashset
 		System.out.println(myset); // [null, A, 100, 10.5, welcome, true]
-		
 		// Removing element
 		myset.remove(10.5); // 10.5 is a value not a Index
-		
 		System.out.println(myset); // [null, A, 100, welcome, true]
 		
 		// Insertion element - Not possible 
 		// Access specific element - Not possible
 		
 		//convert HashSet--> ArrayList
-		
 		ArrayList al=new ArrayList(myset);
 		System.out.println(al); // [null, A, 100, welcome, true]
 		System.out.println(al.get(2));// 2 is a Index 100
@@ -46,34 +42,24 @@ public class HashSetDemo {
 		// For normal for loop we cannot user bcoz Insertion not allowed
 		// Read all the elements using for..each	
 		
-     /*	for(Object x:myset)
+    	for(Object x:myset)
 	   {
 		System.out.println(x); 
 	   }
-		*/
 		
-		// Using Iterator
-		
-	/*	Iterator<Object> it=myset.iterator();
-		
+//		 Using Iterator
+		Iterator<Object> it=myset.iterator();
 		while(it.hasNext())
 		{
            System.out.println(it.next());
 		}
-		*/
 		
 		// Clearing all the elements in hashset
-		
 	/*	myset.clear();
 		System.out.println(myset.isEmpty()); // true
 		*/
 		
 		// size of hahset
-		
 		System.out.println("Size of HahSet : "+myset.size());
-		
-		
-		
-		
 	}
 }

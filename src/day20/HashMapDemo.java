@@ -40,19 +40,15 @@ public class HashMapDemo {
 		System.out.println(hm.values()); // [Anil, Humnabad, Dubalgundi, Bidar]
         System.out.println(hm.entrySet()); // keys with value // [101=Anil, 102=Humnabad, 104=Dubalgundi, 105=Bidar]
   
-        // Reading dat from hashmap
-        
+        // Reading data from hashmap
         //Using for..each
-      /*  for(int k:hm.keySet())
+        for(int k:hm.keySet())
         {
         	System.out.println(k+" "+hm.get(k));
         }
-        */
-        
-        // using Itetator
-        
-        Iterator<Entry<Integer, String>> it = hm.entrySet().iterator();
 
+        // using Itetator
+        Iterator<Entry<Integer, String>> it = hm.entrySet().iterator();
         while(it.hasNext())
         {
         	Entry<Integer, String> entry = it.next();
@@ -60,10 +56,25 @@ public class HashMapDemo {
         }
 		
 		// clear
-        
         hm.clear();
         System.out.println(hm.isEmpty()); // true
- 
-
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

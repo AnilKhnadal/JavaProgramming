@@ -17,5 +17,4 @@ public class FindDuplicateNumber {
 		}
 		System.out.println(count);
 	}
-
 }
